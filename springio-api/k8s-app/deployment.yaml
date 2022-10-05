@@ -16,7 +16,7 @@ spec:
         app: springio-demo
     spec:
       containers:
-      - image: re102162189/springio-demo:1.0.0
+      - image: hunterko/springio-demo:1.0.0
         name: springio-demo
         ports:
             - containerPort: 8080
